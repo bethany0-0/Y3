@@ -1,0 +1,7 @@
+Lab 2 notes
+
+optimalsolution =[ paste the solution ]
+inputcities = cities(:,optimalsolution)
+distance(inputcities)
+
+

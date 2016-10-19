@@ -1,0 +1,8 @@
+Lab 2 notes
+
+optimalsolution =[ paste the solution ]
+inputcities = cities(:,optimalsolution)
+distance(inputcities)
+
+to set numbers pasted as the order for inputcities
+distance finds distance between cities in order using long and lat
