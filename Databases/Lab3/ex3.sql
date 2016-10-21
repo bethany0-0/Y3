@@ -18,6 +18,8 @@ T2:
  6 | p | y | a
  7 | a | y | a
 
+σ = where
+Π = select
 
 1. σ Y >12∧V !=2 (T 1 )
 

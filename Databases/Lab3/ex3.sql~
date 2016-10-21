@@ -1,6 +1,23 @@
 /*Ex3       ./ used for natural join
 
-CREATE TABLE <T1>
+T1:
+
+ v | w | x | y  | z 
+---+---+---+----+---
+ 1 | a | x | 15 | e
+ 2 | a | x | 10 | f
+ 2 | b | x | 15 | g
+ 2 | b | y | 15 | h
+
+T2:
+
+ c | d | x | w 
+---+---+---+---
+ 4 | p | x | b
+ 5 | t | x | b
+ 6 | p | y | a
+ 7 | a | y | a
+
 
 1. σ Y >12∧V !=2 (T 1 )
 
