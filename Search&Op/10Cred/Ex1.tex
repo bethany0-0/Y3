@@ -1,48 +1,82 @@
+\documentstyle{article}
 
-
-\documentclass{article}
+% Math-mode symbol & verbatim
+\def\W#1#2{$#1{#2}$ &\tt\string#1\string{#2\string}}
+\def\X#1{$#1$ &\tt\string#1}
+\def\Y#1{$\big#1$ &\tt\string#1}
+\def\Z#1{\tt\string#1}
  
 \begin{document}
 
+\title{%
+  Nature Inspired Search and Optomisation  \\
+  \large Exercise 1 \\
+    }
+
+\author{1429527}
+
+\maketitle
+
+The assignment is to make an algorythm for the function 
+\begin{equation} \label{main_eqn}
 f(x)=y
+\end{equation}
 
 
 \section{Describe a suitable chromosome representation of an individual}
 
-Representation
+There are three possible options for representaiton: Binary, Gray coding and real-valued. The value for x in the given function \ref{main_eqn} will most likely be on a continuous scale and possibly floating point.  %%%%%%%%%%%%%%%quote paper saying real value best for floating point
 
-As the value of x is not discrete, the most suitable representation will be a real-valued (continuous) representation. 
+Binary can up to double the real value with a single mutation which, though possibly advantageous during the initial search stages, may cause massive variations while fine tuning final stages of find local minima.
 
-Due to the Hamming Cliffs in binary coding, the best representation for this exercise will be Gray coding. This is because, during mutations, we want to produce offspring similar to the parents (the fittest of the current population). Gray coding, changing a single bit causes a small change in the value of the real number it represents. Binary can up to double the real value with a single mutatoion which, though possibly advantageous during the initial search stages, may cause massive variations while attempting to find local minima.
+Due to these Hamming Cliffs, binary coding would not be a suitable for this function. Gray coding would overcome this problem as adjacent integers can be reached by a single bit-flip; This means that, using Gray coding, changing a single bit causes a small change in the value of the real number it represents.
 
-Recombination
+Despite this, Gray coding is the most difficult for a human to understand as real numbers and binary are more common place. Both binary representations also have the flaw of string size as, for a floating point number, the string length required to maintain accuracy grows exponentially. For example:
 
-/////////////////////////Maybe?????????????
-Not use intermediate recombination as this changes the genetic values. While the typical probem with this is that it can cause a value which is not valid, by the look the the unknown funciton, x is unbounded. The problem in this case will be that multiple return value are acceptable. This means that I can find multiple minimum which are all correct, so I do not want to find the average of two fit parents, I want the searched to remain independant to fidn each local minimum. 
+Given domain [−2,2] and precision of 6 decimal places
+ Divide domain [−2,2] into 4 · 1000000 intervals
+ We need 22 bits (4 * 1000000 < $2^{22}$) 
+Whereas for real values, we would only need 7.
 
-For this reason I will use Discreate Recombination, specifically quadratic recombination mean. 
+ For these reasons combined I have decided to use real-valued representation. This will cause the recombination functions to be more complex but will be easier for user to follow while maintaining small mutations and conserve memory. 
 
-\[ x_j^' = \frac{1}{2} . \frac{(x_2j^2 - x_3j^2)f(x_1) + (x_3j^2 - x_1j^2)f(x_2) + (x_1j^2 - x_2j^2)f(x_3)}{(x_2j - x_3j)f(x_1) + (x_3j - x_1j)f(x_2) + (x_1j - x_2j)f(x_3)} \]#
-
-For 3 parents see above.
-
-This will find the parabola connecting 3 current points and produce a single child at min(x) of that parabola. 
 
 \section{Design a suitable fitness function}
 
-f(x)=y 
+A fitness function should maximise the fitness of the best solution. Because of this, the mathmatical result of the fitness function should be greatest when f(x) is closest to 0.
 
-|f(x)-y| 
+\begin{equation} \label{fit_eqn}
+y - |f(x)|
+\end{equation}
+
+\ref{fit_eqn} will be my fitness function as the further from y f(x) is, the smaller the result is. The maximum fitness possibly by this function is 0.
+
 
 \section{Describe what evolutionary operators you would use}
 
+The assignment states that we are to find all vectors x that satisfy equation \ref{main_eqn}. This means that my evolutionalry algorythm can find multiple local minimum. For this I need an evolutionary operator that quickly searches the a large search space then converges on local 
+
+\smallbreak
+Intermediate recombination
+For this reason I will use Discreate Recombination, specifically quadratic recombination mean. 
+
+\begin{equation} \label{eu_eqn}
+ x_j^{'} = \frac{1}{2} . \frac{(x_2j^2- x_3j^2)f(x_1) + (x_3j^2 - x_1j^2)f(x_2) + (x_1j^2 - x_2j^2)f(x_3)}{(x_2j - x_3j)f(x_1) + (x_3j - x_1j)f(x_2)+ (x_1j - x_2j)f(x_3)}
+\end{equation}
+
+
+Equation \ref{eu_eqn} shows quadratic recombination for three parents.
+
+\smallbreak
+
+This will find the parabola connecting 3 current points and produce a single child at min(x) of that parabola. 
 \section{Describe the selection scheme you would use}
-
+$
 Tournament (\mu + \lambda) - selection. \mu parents generated by Fitness Proportional Selection with a scaled fitness function of exponetial scaling. This is because exponential scaling includes a temperature that aproaches 0 as time goes on.
-
+$
 Fitness Proportional Selection
 
-\bold{Pr}[x] = \frac{(f(x)}{\sum_y\mem(P) f(y)}.
+%\bold{Pr}[x] = \frac{(f(x)}{\sum_y\mem(P) f(y)}.
 Exponential Scaling:
 
  f~(x) := exp(f(x)/T),	where T > 0
