@@ -19,7 +19,7 @@ num_cities = length(inputcities);
 % You can generate a random solution as the inital solution. 
 % If you execute your algorithm several times, you have the hill climbing
 % algorithm with random restart. 
-best_tour = [1:num_cities];
+best_tour = [randperm(num_cities)];
 best_cities_coordinates = inputcities(:,best_tour)
 best_distance = distance(best_cities_coordinates);
 
@@ -44,7 +44,7 @@ while (k<kmax)
                 	% accept the first better solution and then terminate (break) 
                 	% the search of other immediate neighbours
                 	
-                	%break; 
+                	break; 
                 	
                 	%%%%%%%%%%%5with break finds first best, leave in
                 	%checks all k
