@@ -1,7 +1,9 @@
 function d = GeoDistance(inputcities)
 
+%inputcities = inputcities';
 %x[i] and y[i] = coord for cities in long and lat
 %convert to geographical distance
+inputcities = inputcities';
 cities_num = length(inputcities);
 coord = zeros(cities_num, 2);
 

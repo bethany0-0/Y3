@@ -10,8 +10,8 @@ function [best_distance best_tour] = SimulatedAnnealing(inputcities)
 %Parameters
 %Geoistance = E()
 
-t0 = 0.9;
-kmax = 30;
+t0 = 0.8;
+kmax = 200;
 
 num_cities = length(inputcities);
 
@@ -21,12 +21,12 @@ num_cities = length(inputcities);
 % algorithm with random restart. 
 best_tour = [randperm(num_cities)];
 best_cities_coordinates = inputcities(:,best_tour)
-best_distance = distance(best_cities_coordinates);
+best_distance = GeoDistance(best_cities_coordinates);
 
 k = 0;
 
 while (k<kmax)
-    T = t0 * 0.95^k;         %temperature function;
+    T = t0/log(k);         %temperature function;
 	
 	for i = 2 : num_cities-1
         for j = i+2 : num_cities - 1
@@ -34,7 +34,7 @@ while (k<kmax)
             	% Execute the swapping function
             	new_tour = twoopt(best_tour, i, j);
             	new_cities_coordinates = inputcities(:,new_tour);
-            	new_distance = distance(new_cities_coordinates);
+            	new_distance = GeoDistance(new_cities_coordinates);
             	
 		if P(best_distance, new_distance, T) > rand
                 	best_distance = new_distance;
