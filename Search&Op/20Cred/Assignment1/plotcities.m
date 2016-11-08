@@ -28,7 +28,7 @@ axis([y_limit,x_limit])
 temp_3 = line(start_city,end_city);
 set(temp_3,'color','r');
 
-dist = distance(inputcities);
+dist = GeoDistance(inputcities);
 distance_print = sprintf(...
      'The roundtrip length for %d cities is % 4.6f units'...
      ,length(inputcities),dist);

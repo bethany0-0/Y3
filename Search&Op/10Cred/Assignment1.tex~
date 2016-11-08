@@ -1,0 +1,31 @@
+\documentclass{article}
+
+% Math-mode symbol & verbatim
+\def\W#1#2{$#1{#2}$ &\tt\string#1\string{#2\string}}
+\def\X#1{$#1$ &\tt\string#1}
+\def\Y#1{$\big#1$ &\tt\string#1}
+\def\Z#1{\tt\string#1}
+ 
+\begin{document}
+
+\title{%
+  Nature Inspired Search and Optomisation  \\
+  \large Exercise 1 \\
+    }
+
+\author{1429527}
+
+\maketitle
+
+The assignment is to design an algorythm to solve the equation 
+\begin{equation} \label{main_eqn}
+f(x)=y
+\end{equation}
+
+
+\section{Describe a suitable chromosome representation of an individual}
+
+I three options considered for representaiton: Binary, Gray coding and real-valued. The value for x in the given function \ref{main_eqn} has not had boundaries defined so I am assuming that it will be on a continuous scale of floating point numbers.  
+
+
+\end{document}

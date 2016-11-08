@@ -1,0 +1,4 @@
+Optimal distance:
+ optCities = cities(:, optimalSolution)
+distance(optCities)
+ans =  10628
