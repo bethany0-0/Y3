@@ -1,3 +1,0 @@
-function value = ObjectiveFunction()
-
-end
