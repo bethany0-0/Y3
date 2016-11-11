@@ -8,53 +8,56 @@ function [total_cost, F] = RandomInitilisation(matrix_a, column_cost)
 % β j = {i | a i j = 1, i ∈ I } the set of rows covered by column j.
 %set S k := ∅; set U := I ;
 
-k = ;
 %Pop size
-N = ;
-Rows = [1:1:size(matrix_a)];
+% number of rows
+m = size(matrix_a,1);
+% number of columns
+n = size(matrix_a, 2);
 
-%linear indecie of covered element
-U = find(I==1) % = covered_idx
 
-%columns covered
-a = zeors(length(U));
+% I is the set of rows
+I = [1:1:m];
+% S is the solution, i.e., S_j=1 means the j_th column is selcted, S_j=0,
+% otherwise
+S = zeros(1,n);
 
-%rows covered
-b = 
-
-for k = 1 : N 
+for k = 1 : n 
+    %set U := I ;
+    U = I; 
     
-    % Initiate Sk to empty
-    S(k) = zeros(1,m);
-    % Find out which rows have not been covered
-    U= Rows; 
-    
+    count = 1;
+    %repeat
     %until U = ∅.
-    while U ~= zeors(1, size(c))
+    while U ~= zeros(1, m)
         
         % randomly select a row i ∈ U ;
         rand = randi(length(U));
-        i = U(rand) 
+        i = U(rand); 
     	
         %randomly select a column j ∈ α i such that β j ∩ (I − U ) = ∅;
 
-	% alpha_i is the indices of columns that cover row i
+        % alpha_i is the indices of columns that cover row i
     	alpha_i = find(matrix_a(i,:)==1); 
 
-   	%select j so bj n (I-U) = empty
-%%%%%%%%%%%%%%%%%%need to update (now just randomly selects j)
-	rand = randi(length(alpha_i));
-        j = alpha_i(rand);
-
-
-       
+        %select j so bj n (I-U) = empty
+       	alpha_U_union = intersect(U, alpha_i);
+        rand = randi(length(alpha_U_union));
+        j = alpha_U_union(rand);
+         
         %if j exists
-        if
-            %set S k ← S k + j; set U ← U − i, ∀i ∈ β j
+        if (j ~= 0)
+            %set S k ← S k + j; 
+            S(k, count) = j;
+            
+            %set U ← U − i, ∀i ∈ β j
+            U(i) = 0;
     
-        else
+            count = count +1;
+            
+        else 
             %set U ← U − i;
-        
+            U(i) = 0;
+            
         end
     
     end
