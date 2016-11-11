@@ -39,13 +39,19 @@ for k = 1 : n
         % alpha_i is the indices of columns that cover row i
     	alpha_i = find(matrix_a(i,:)==1); 
 
+        
+     
+        
         %select j so bj n (I-U) = empty
        	alpha_U_union = intersect(U, alpha_i);
-        rand = randi(length(alpha_U_union));
-        j = alpha_U_union(rand);
          
         %if j exists
-        if (j ~= 0)
+        if (length(alpha_U_union) ~= 0)
+            
+            rand = randi(length(alpha_U_union));
+            j = alpha_U_union(rand);
+         
+       
             %set S k ← S k + j; 
             S(k, count) = j;
             
@@ -59,9 +65,13 @@ for k = 1 : n
             U(i) = 0;
             
         end
-    
+   
     end
 
 end
+
+F = S;
+
+total_cost = F*column_cost';
 
 end

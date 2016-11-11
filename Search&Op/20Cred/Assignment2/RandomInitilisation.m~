@@ -1,42 +1,77 @@
 function [total_cost, F] = RandomInitilisation(matrix_a, column_cost)
-%S = the set of columns in a solution,
-%U = the set of uncovered rows,
+% S = the set of columns in a solution,
+% U = the set of uncovered rows,
 % wi = the number of columns that cover row i, i ∈ I in S.
-
+% I = {1, . . . , m} the set of rows
+% J = {1, . . . , n} the set of columns,
+% α i = { j | a i j = 1, j ∈ J } the set of columns that cover row i
+% β j = {i | a i j = 1, i ∈ I } the set of rows covered by column j.
 %set S k := ∅; set U := I ;
 
-k = ;
 %Pop size
-N = ;
+% number of rows
+m = size(matrix_a,1);
+% number of columns
+n = size(matrix_a, 2);
 
-for k = 1 : N 
+
+% I is the set of rows
+I = [1:1:m];
+% S is the solution, i.e., S_j=1 means the j_th column is selcted, S_j=0,
+% otherwise
+S = zeros(1,n);
+
+for k = 1 : n 
+    %set U := I ;
+    U = I; 
     
-    % Initiate Sk to empty
-    S(k) = zeros(1,m);
-    % Find out which rows have not been covered
-    U= find(I==0); 
-    
+    count = 1;
+    %repeat
     %until U = ∅.
-    while U ~= zeors(1, size(U))
+    while U ~= zeros(1, m)
         
         % randomly select a row i ∈ U ;
-        rand = randi(length(uncovered_rows_idx));
-        % randomly select an uncovered row i
-        i = uncovered_rows_idx(rand) 
-    
+        rand = randi(length(U));
+        i = U(rand); 
+    	
         %randomly select a column j ∈ α i such that β j ∩ (I − U ) = ∅;
-       
-        %if j exists
-        if
-            %set S k ← S k + j; set U ← U − i, ∀i ∈ β j
-    
-        else
-            %set U ← U − i;
+
+        % alpha_i is the indices of columns that cover row i
+    	alpha_i = find(matrix_a(i,:)==1); 
+
+        % beta_i is the indices of columns that cover row i
+    	beta_j = find(alpha_i(:,j)==1); 
         
-        end
+        %select j so bj n (I-U) = empty
+       	alpha_U_union = intersect(U, alpha_i);
+         
+        %if j exists
+        if (length(alpha_U_union) ~= 0)
+            
+            rand = randi(length(alpha_U_union));
+            j = alpha_U_union(rand);
+         
+       
+            %set S k ← S k + j; 
+            S(k, count) = j;
+            
+            %set U ← U − i, ∀i ∈ β j
+            U(i) = 0;
     
+            count = count +1;
+            
+        else 
+            %set U ← U − i;
+            U(i) = 0;
+            
+        end
+   
     end
 
 end
+
+F = S;
+
+total_cost = F*column_cost';
 
 end
