@@ -1,0 +1,30 @@
+﻿Database Management
+
+CREATE TABLE Persons
+(
+PersonID int  constraint_name,
+LastName varchar(255),
+FirstName varchar(255),
+Address varchar(255),
+City varchar(255)
+); 
+
+Constraints
+
+    NOT NULL - Indicates that a column cannot store NULL value
+    UNIQUE - Ensures that each row for a column must have a unique value
+    PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Ensures that a column (or combination of two or more columns) have a unique identity which helps to find a particular record in a table more easily and quickly
+    FOREIGN KEY - Ensure the referential integrity of the data in one table to match values in another table
+    CHECK - Ensures that the value in a column meets a specific condition
+    DEFAULT - Specifies a default value for a column
+
+Insert
+
+INSERT INTO table_name
+VALUES (value1,value2,value3,...);
+
+Specific columns
+
+INSERT INTO table_name (column1,column2,column3,...)
+VALUES (value1,value2,value3,...);
+
