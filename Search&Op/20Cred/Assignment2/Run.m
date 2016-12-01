@@ -3,11 +3,13 @@ Pt = 0.4;
 
 
 [matrix_a, column_cost] = ReadInData('sppnw41.txt');
-results = [];
+
+[total_cost, F] = RandomInitilisation(matrix_a, column_cost);
 
 for i=1:10
-
-    [total_cost, x] = RandomInitilisation(matrix_a, column_cost);
+    
+    StochasticRanking(total_cost, F);
   
-    results = [results total_cost];
+ heuristicImprovement
+   
 end

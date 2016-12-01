@@ -2,12 +2,16 @@ Pt = 0.4;
 
 
 
-[matrix_a, column_cost] = ReadInData('sppnw41.');
+[matrix_a, column_cost] = ReadInData('sppnw41.txt');
+
+[total_cost, F] = RandomInitilisation(matrix_a, column_cost);
+
 results = [];
 
 for i=1:10
-
-    [total_cost, x] = RandomInilisation(matrix_a, column_cost);
+    
+    StochasticRanking
   
-    results = [results total_cost];
+   results = [results total_cost];
+   
 end

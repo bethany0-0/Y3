@@ -31,7 +31,8 @@ end
 %T is dummy set
 T = S;
 
-while (V ~= zeros(1,size(V))
+while (T ~= zeros(1,n))
+    
    rand = randi(size(T));
    j = T(rand);
    
@@ -39,6 +40,9 @@ while (V ~= zeros(1,size(V))
    
    if w(i) >= 2
    
+       
+       
+   end
    
 end
 

@@ -31,14 +31,23 @@ end
 %T is dummy set
 T = S;
 
-while (T ~= zeros(1,size(T))
+while (T ~= zeros(1,n))
+    
    rand = randi(size(T));
    j = T(rand);
    
    T(rand) = 0;
    
-   if w(i) >= 2
+   beta_j = find(matrix_a(:,j)==1); 
    
+   for i = 1:m
+    if ismember(i,beta)j) & w(i) >= 2
+   
+       S(1, j) = 0;
+       w(i) = w(i) -1;
+       
+    end
+   end
    
 end
 
