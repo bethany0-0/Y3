@@ -1,4 +1,4 @@
-function [total_cost,best_ind] = Run(file, MaxIter)
+function [total_cost,best_ind,total_cons_vio ] = Run(file, MaxIter)
 
 %Input Arguments:
 %   fname       - the name of the evaluation .m function
