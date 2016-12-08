@@ -93,8 +93,9 @@ while termination_flag == false
     
 end
 
-best_ind = population(1,:)
+best_ind = population(1,:);
 [fitness, total_cost, total_cons_vio]  = cal_fitness(best_ind, matrix_a, column_cost);
+disp(['The solution found by the Binary Genetic algorithm is: ', num2str(best_ind)]);
 disp(['The minimum cost found by the GA is: ', num2str(total_cost)]);
 disp(['The sum of volations of the constraints is: ', num2str(total_cons_vio)]);
      

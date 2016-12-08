@@ -5,7 +5,7 @@ fid = fopen(fname,'rt');
 
 
 tline = fgets(fid);
-disp(tline)
+%disp(tline)
 
 matrixsize = str2num(tline);
 con_matrix = zeros(matrixsize);
