@@ -48,7 +48,8 @@ for i = 1:N
 %%%%%%%%%%%%%%%update to work
 
 uncovered_rows_idx = find(w==0);
-while sum(uncovered_rows_idx) > 0
+[x,y] = size(uncovered_rows_idx);
+while y > 0;
  % Find out which rows have not been covered     
         
     %% Code section you need to complete
