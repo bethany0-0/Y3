@@ -1,4 +1,4 @@
-function [total_cost, F] = StochasticSetCovering(matrix_a, column_cost)
+function [total_cost, F, best_constraint] = StochasticSetCovering(matrix_a, column_cost)
 
 % number of rows
 m = size(matrix_a,1);

@@ -20,13 +20,13 @@ avg_fitness = [];
 t = 0;
 
 %% Generate initial solution
-genotypes = rand(PopSize,num_bit)>0.5;
+genotypes = rand(PopSize,num_bit)>0.5; %%%%%%%%%%%%%%
 fitness = [];
 
 %% Evaluate phenotypes
 
 
-fitness = cal_fitness(genotypes, matrix_a, column_cost);
+fitness = cal_fitness(genotypes, matrix_a, column_cost);%%%%%%%%555
 
 [fitness, sorted_idx] = sort(fitness);
 genotypes = genotypes(sorted_idx,:);
@@ -36,7 +36,7 @@ while termination_flag == false
     
     
     %% selection
-    num_parent = PopSize * 0.3;
+    num_parent = PopSize * 0.3;%%%%%%%%%%
     parents = genotypes(1:num_parent,:);
     offerspring = parents;
     
@@ -56,6 +56,8 @@ while termination_flag == false
         % flip it
         offerspring(j, mutation_bit) = ~parents(j, mutation_bit);
     end
+    
+    %%%%%%%%%%%%%%%%%%heuristic improvement
     
     %% Evaluation fitness
     genotypes = [genotypes; offerspring];   

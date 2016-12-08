@@ -1,4 +1,4 @@
-function [total_cost, F] = StochasticSetCovering(matrix_a, column_cost)
+function [total_cost, F, best_constraint] = StochasticSetCover(matrix_a, column_cost)
 
 % number of rows
 m = size(matrix_a,1);
@@ -16,12 +16,17 @@ F = zeros(1,n);
 while sum(I)<m     
     % Find out which rows have not been covered
     uncovered_rows_idx = find(I==0);  
+    
+    %% Code section you need to complete
+    rand = randi(length(uncovered_rows_idx));
     % randomly select an uncovered row i
-    i = uncovered_rows_idx(randi(length(uncovered_rows_idx)));
+    i = uncovered_rows_idx(rand); % Fill in your code in the brackets; 
     % alpha_i is the indices of columns that cover row i
-    alpha_i = find(matrix_a(i,:)==1);
+    alpha_i = find(matrix_a(i,:)==1); % Fill in your code in the brackets; Hint: use matrix_a
     %  select column j \in \alpha_i which covers row i with minimum cost
-    [mincost, idx] = min(column_cost(alpha_i));
+    [mincost, idx] = min(column_cost(alpha_i)); % Replace the square brackets with your code. Hint: use alpha_i and costs
+    
+    %%    
     % However, there are multiple column with the same minimum cost
     % If we use min function in matlab, we will always selet the first column with the minimum cost
     idx_array = find(column_cost(alpha_i) == mincost);
@@ -37,8 +42,8 @@ while sum(I)<m
     I(1, matrix_a(:,j)==1) = 1;
 end
 total_cost = F*column_cost';
-disp(['The minimum cost found by the Stochastic Greedy algorithm is: ', num2str(total_cost)]);
-disp(['The solution found by the Stochastic Greedy algorithm is: ', num2str(F)]);
+%disp(['The minimum cost found by the Stochastic Greedy algorithm is: ', num2str(total_cost)]);
+%disp(['The solution found by the Stochastic Greedy algorithm is: ', num2str(F)]);
 temp2 =  (matrix_a*F')';
 best_constraint = sum(((temp2-1).^2)');
-disp(['The sum of volations of the constraints is: ', num2str(best_constraint)]);
+%disp(['The sum of volations of the constraints is: ', num2str(best_constraint)]);
