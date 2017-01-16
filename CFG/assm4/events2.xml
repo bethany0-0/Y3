@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lfm status="ok">
+    <events venue="O2 Academy Birmingham" festivalsonly="0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>3985163</id>
+            <title>Placebo</title>
+            <artists>
+                <artist>Placebo</artist>
+                <artist>The Mirror Trap</artist>
+                <headliner>Placebo</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Wed, 18 Mar 2015 19:00:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/7938531.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/7938531.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/7938531.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/7938531.jpg</image>
+            <attendance>27</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=3985163</tag>
+            <url>http://www.last.fm/event/3985163+Placebo+at+O2+Academy+Birmingham+on+18+March+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>alternative rock</tag>
+                <tag>alternative</tag>
+                <tag>indie</tag>
+                <tag>scottish</tag>
+                <tag>rock</tag>
+                <tag>placebo</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>3982195</id>
+            <title>Celtic Punk Invasion Tour</title>
+            <artists>
+                <artist>Dropkick Murphys</artist>
+                <artist>Blood or Whiskey</artist>
+                <artist>The Mahones</artist>
+                <artist>Resistance 77</artist>
+                <headliner>Dropkick Murphys</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Sun, 22 Mar 2015 10:48:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/7302045.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/7302045.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/7302045.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/7302045.jpg</image>
+            <attendance>13</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=3982195</tag>
+            <url>http://www.last.fm/event/3982195+Celtic+Punk+Invasion+Tour</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>punk</tag>
+                <tag>celtic punk</tag>
+                <tag>irish</tag>
+                <tag>irish punk</tag>
+                <tag>folk punk</tag>
+                <tag>punk rock</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4054617</id>
+            <title>Chic</title>
+            <artists>
+                <artist>Chic</artist>
+                <headliner>Chic</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Wed, 25 Mar 2015 19:37:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/47626993.png</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/47626993.png</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/47626993.png</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/47626993.png</image>
+            <attendance>2</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4054617</tag>
+            <url>http://www.last.fm/event/4054617+Chic+at+O2+Academy+Birmingham+on+25+March+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>funk</tag>
+                <tag>disco</tag>
+                <tag>soul</tag>
+                <tag>70s</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4011809</id>
+            <title>Of Mice &amp; Men</title>
+            <artists>
+                <artist>Of Mice &amp; Men</artist>
+                <artist>The Amity Affliction</artist>
+                <headliner>Of Mice &amp; Men</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Fri, 03 Apr 2015 18:00:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/95027193.png</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/95027193.png</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/95027193.png</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/95027193.png</image>
+            <attendance>8</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4011809</tag>
+            <url>http://www.last.fm/event/4011809+Of+Mice+-+Men+at+O2+Academy+Birmingham+on+3+April+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>post-hardcore</tag>
+                <tag>metalcore</tag>
+                <tag>screamo</tag>
+                <tag>hardcore</tag>
+                <tag>the amity affliction</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>3948533</id>
+            <title>The World Tour</title>
+            <artists>
+                <artist>Pierce the Veil</artist>
+                <artist>Sleeping with Sirens</artist>
+                <artist>Issues</artist>
+                <headliner>Pierce the Veil</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Wed, 08 Apr 2015 20:20:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/89239707.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/89239707.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/89239707.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/89239707.jpg</image>
+            <attendance>15</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=3948533</tag>
+            <url>http://www.last.fm/event/3948533+The+World+Tour</url>
+            <website>http://theworldtour.info/</website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>post-hardcore</tag>
+                <tag>screamo</tag>
+                <tag>emocore</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4010100</id>
+            <title>The Wombats</title>
+            <artists>
+                <artist>The Wombats</artist>
+                <headliner>The Wombats</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Fri, 10 Apr 2015 21:37:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/63401289.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/63401289.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/63401289.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/63401289.jpg</image>
+            <attendance>5</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4010100</tag>
+            <url>http://www.last.fm/event/4010100+The+Wombats+at+O2+Academy+Birmingham+on+10+April+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>indie</tag>
+                <tag>poptron</tag>
+                <tag>british</tag>
+                <tag>rock</tag>
+                <tag>indie rock</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4056242</id>
+            <title>Funkadelic</title>
+            <artists>
+                <artist>Funkadelic</artist>
+                <headliner>Funkadelic</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Sun, 19 Apr 2015 15:34:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/32587815.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/32587815.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/32587815.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/32587815.jpg</image>
+            <attendance>1</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4056242</tag>
+            <url>http://www.last.fm/event/4056242+Funkadelic+at+O2+Academy+Birmingham+on+19+April+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>psychedelic</tag>
+                <tag>funk</tag>
+                <tag>p-funk</tag>
+                <tag>soul</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>3992380</id>
+            <title>Prong</title>
+            <artists>
+                <artist>Prong</artist>
+                <artist>Steak Number Eight</artist>
+                <artist>H A R K</artist>
+                <headliner>Prong</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Tue, 21 Apr 2015 17:39:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/16971697.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/16971697.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/16971697.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/16971697.jpg</image>
+            <attendance>5</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=3992380</tag>
+            <url>http://www.last.fm/event/3992380+Prong+at+O2+Academy+Birmingham+on+21+April+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4070964</id>
+            <title>The Interrupters</title>
+            <artists>
+                <artist>The Interrupters</artist>
+                <headliner>The Interrupters</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Sun, 26 Apr 2015 19:00:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/88429009.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/88429009.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/88429009.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/88429009.jpg</image>
+            <attendance>1</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4070964</tag>
+            <url>http://www.last.fm/event/4070964+The+Interrupters+at+O2+Academy+Birmingham+on+26+April+2015</url>
+            <website>http://www.o2academybirmingham.co.uk/event/74371/the-interrupters-tickets</website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>punk rock</tag>
+                <tag>ska</tag>
+                <tag>reggae</tag>
+                <tag>ska punk</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4029414</id>
+            <title>Mobb Deep &quot;The Infamous...&quot; 20th Anniversary Tour</title>
+            <artists>
+                <artist>Mobb Deep</artist>
+                <headliner>Mobb Deep</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Fri, 01 May 2015 18:00:00</startDate>
+            <description>
+                <![CDATA[<div class="bbcode">This show has been rescheduled to Friday 1st May. Original tickets remain valid for the new date. Refunds available from point of purchase for those unable to attend new date.<br /><br />Due to an unforeseen scheduling conflict, Mobb Deep regret to announce that they have been forced to reschedule their 2015 UK dates.<br /><br />Under 25s require ID to purchase alcohol <br />Under 14s must be accompanied by an adult over 18 at all times<br />Minimum age is 8</div>]]>
+            </description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/82415057.png</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/82415057.png</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/82415057.png</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/82415057.png</image>
+            <attendance>12</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4029414</tag>
+            <url>http://www.last.fm/event/4029414+Mobb+Deep+%22The+Infamous...%22+20th+Anniversary+Tour</url>
+            <website>http://www.o2academybirmingham.co.uk/event/73690/mobb-deep-the-infamous-20th-anniversary-tour-tickets</website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>mobb deep</tag>
+                <tag>hip hop</tag>
+                <tag>hip-hop</tag>
+                <tag>rap</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4031190</id>
+            <title>The Prodigy</title>
+            <artists>
+                <artist>The Prodigy</artist>
+                <headliner>The Prodigy</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Thu, 07 May 2015 10:47:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/23877861.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/23877861.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/23877861.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/23877861.jpg</image>
+            <attendance>12</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4031190</tag>
+            <url>http://www.last.fm/event/4031190+The+Prodigy+at+O2+Academy+Birmingham+on+7+May+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>rave</tag>
+                <tag>breakbeat</tag>
+                <tag>electronic</tag>
+                <tag>dance</tag>
+                <tag>techno</tag>
+                <tag>big beat</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4074430</id>
+            <title>An Evening With Primus</title>
+            <artists>
+                <artist>Primus</artist>
+                <headliner>Primus</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Thu, 25 Jun 2015 19:00:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/243072.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/243072.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/243072.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/243072.jpg</image>
+            <attendance>2</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4074430</tag>
+            <url>http://www.last.fm/event/4074430+An+Evening+With+Primus</url>
+            <website>http://www.o2academybirmingham.co.uk/event/74983/primus-an-evening-with-tickets</website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4021267</id>
+            <title>NOFX &amp; Alkaline Trio</title>
+            <artists>
+                <artist>Alkaline Trio</artist>
+                <artist>NOFX</artist>
+                <headliner>Alkaline Trio</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Sat, 27 Jun 2015 18:30:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/39583835.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/39583835.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/39583835.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/39583835.jpg</image>
+            <attendance>34</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4021267</tag>
+            <url>http://www.last.fm/event/4021267+NOFX+-+Alkaline+Trio</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>punk</tag>
+                <tag>punk rock</tag>
+                <tag>emo</tag>
+                <tag>alternative</tag>
+                <tag>rock</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4018883</id>
+            <title>Annihilator</title>
+            <artists>
+                <artist>Annihilator</artist>
+                <headliner>Annihilator</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Wed, 30 Sep 2015 21:01:01</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/12024631.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/12024631.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/12024631.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/12024631.jpg</image>
+            <attendance>2</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4018883</tag>
+            <url>http://www.last.fm/event/4018883+Annihilator+at+O2+Academy+Birmingham+on+30+September+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>thrash metal</tag>
+                <tag>metal</tag>
+                <tag>heavy metal</tag>
+                <tag>speed metal</tag>
+            </tags>
+        </event>
+        <event xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+            <id>4057319</id>
+            <title>Weird Al Yankovic</title>
+            <artists>
+                <artist>Weird Al Yankovic</artist>
+                <headliner>Weird Al Yankovic</headliner>
+            </artists>
+            <venue>
+                <id>9041806</id>
+                <name>O2 Academy Birmingham</name>
+                <location>
+                    <city>Birmingham</city>
+                    <country>United Kingdom</country>
+                    <street>16-18 Horsefair, Bristol Street</street>
+                    <postalcode>B1 1DB</postalcode>
+                    <geo:point>
+                        <geo:lat>52.480733</geo:lat>
+                        <geo:long>-1.8945</geo:long>
+                    </geo:point>
+                </location>
+                <url>http://www.last.fm/venue/9041806+O2+Academy+Birmingham</url>
+                <website>http://www.o2academybirmingham.co.uk</website>
+                <phonenumber></phonenumber>
+                <image size="small">http://userserve-ak.last.fm/serve/34/55145937.jpg</image>
+                <image size="medium">http://userserve-ak.last.fm/serve/64/55145937.jpg</image>
+                <image size="large">http://userserve-ak.last.fm/serve/126/55145937.jpg</image>
+                <image size="extralarge">http://userserve-ak.last.fm/serve/252/55145937.jpg</image>
+                <image size="mega">http://userserve-ak.last.fm/serve/500/55145937/O2+Academy+Birmingham+Bham_academy.jpg</image>
+            </venue>
+            <startDate>Sat, 03 Oct 2015 19:00:00</startDate>
+            <description></description>
+            <image size="small">http://userserve-ak.last.fm/serve/34/26964823.jpg</image>
+            <image size="medium">http://userserve-ak.last.fm/serve/64/26964823.jpg</image>
+            <image size="large">http://userserve-ak.last.fm/serve/126/26964823.jpg</image>
+            <image size="extralarge">http://userserve-ak.last.fm/serve/252/26964823.jpg</image>
+            <attendance>2</attendance>
+            <reviews>0</reviews>
+            <tag>lastfm:event=4057319</tag>
+            <url>http://www.last.fm/event/4057319+Weird+Al+Yankovic+at+O2+Academy+Birmingham+on+3+October+2015</url>
+            <website></website>
+            <tickets></tickets>
+            <cancelled>0</cancelled>
+            <tags>
+                <tag>comedy</tag>
+                <tag>humour</tag>
+                <tag>funny</tag>
+                <tag>parody</tag>
+            </tags>
+        </event>
+    </events>
+</lfm>

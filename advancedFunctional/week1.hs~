@@ -1,0 +1,39 @@
+data Empty
+
+data OR a b = L a | R b
+
+--data Law1 = Not(P And Q) Implies (Not P) Or (Not Q)
+
+data Law1 p q = Law1 (((p , q) -> Empty) -> (OR (p -> Empty) (q -> Empty)))
+
+--data Law2 = (Not P) Or (Not Q) Implies Not(P And Q)
+
+data Law2 p q = Law2 ((OR (p -> Empty) (q -> Empty)) -> ((p, q) -> Empty)) 
+
+--data Law3 = Not(P Or Q) Implies (Not P) And (Not Q)
+
+data Law3 p q = Law3 (((OR p q) -> Empty) -> ((p -> Empty), (q -> Empty)))
+
+--data Law4 = (Not P) And (Not Q) Implies Not(P Or Q)
+
+data Law4 p q = Law4 (((p -> Empty), (q -> Empty)) -> ((OR p q) -> Empty))
+
+
+--Part 2
+
+--Law2 proof
+
+
+
+
+-- Law3 proof
+
+--data Law3Proof Law3 = Law3Proof ( )
+
+--Law4 proof
+
+Law4Proof :: Law4 p q
+                  |(p -> Empty) = (\(p -> Empty) -> ((OR p q) -> Empty)) 
+                  |(q -> Empty) = (\(q -> Empty) -> ((OR p q) -> Empty))
+
+                      

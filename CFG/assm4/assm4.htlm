@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Last.fm</title>
+		<link type="text/css" rel="stylesheet"	href="assm4.css"/>
+		<script type="text/javascript" src="requestData.js"></script>
+		<script type="text/javascript" src="assm4.js"></script>
+		
+		<!--Load the AJAX API-->
+		    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		    <script type="text/javascript">
+   		    </script>
+
+	</head>
+
+	<body onload="initialise();">
+			
+		<div id="mainpage">
+
+			<div id="banner">Last.fm</div>
+
+			<div id= "selectData">
+				<span class="fakelink" id="topArtists">Top Artists    </span>
+				<span class="fakelink" id="topTracks">Top Tracks    </span>
+				<span class="fakelink" id="events">Events    </span>
+			</div>
+			
+			<search class="fakelink" id = "search"> <b> Search </b> </search>
+
+			<div id = "actions">
+				<p id="artistActions" view="y">
+					<heading> Top 20 Artists </heading> 
+				SortBy: <span class="fakelink" id="aPlayCount">PlayCount, </span>
+					<span class="fakelink" id="aName">Name</span>
+				</p>
+				<p id="trackActions" view="y">
+					<heading> Top 20 Tracks </heading> 
+				SortBy: <span class="fakelink" id="tPlayCount">PlayCount, </span>
+					<span class="fakelink" id="tName">Name</span>
+				</p>
+				<p id="eventActions" view="y">
+					<heading> Upcoming Events </heading> 
+				SortBy: <span class="fakelink" id="date">Date, </span>
+					<span class="fakelink" id="headline">Headline act</span>
+				</p>
+			</div>
+			
+   			 <!--Div that will hold the pie chart-->
+    			<div id="chart_div"></div>
+
+			<div id="items">
+				<table id="topArtistsTable">
+				</table>
+				<table id="topTracksTable">
+				</table>
+				<table id="eventsTable">
+				</table>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>
