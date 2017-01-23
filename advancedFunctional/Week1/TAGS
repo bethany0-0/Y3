@@ -1,0 +1,28 @@
+
+./text.hs,15
+fact fact0,1
+
+./week1.hs,631
+data EmptyEmpty9,10
+data OR OR11,12
+data OR a b = L L11,12
+data OR a b = L a | R R11,12
+--data --data13,14
+data Law1 Law115,16
+data Law1 p q = Law1 Law115,16
+data Law2 Law219,20
+data Law2 p q = Law2 Law219,20
+data Law3 Law323,24
+data Law3 p q = Law3 Law323,24
+data Law4 Law427,28
+data Law4 p q = Law4 Law427,28
+law2Proof law2Proof35,36
+law2Proof law2Proof36,37
+law3Proof law3Proof43,44
+law3Proof law3Proof44,45
+law3function law3function47,48
+law3function law3function48,49
+law4Proof law4Proof55,56
+law4Proof law4Proof56,57
+law4function law4function58,59
+law4function law4function59,60
