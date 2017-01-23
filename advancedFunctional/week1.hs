@@ -93,3 +93,22 @@ law4function (negA, negB) = (\or -> case or of
 -- L ((\ a -> (\b ->(\ fun (a, b)))
 
 -- This dictates that a relies on b also being true in the hypotesis thefore (a, b) has been proven not a. a is co-dependant on b because of the premise.
+
+
+-----Empty problems
+
+undefined = proof4
+
+error "bla" :: Empty
+myfun :: (Empty -> Empty) -> Empty
+myfun f = f (myfun f)
+
+fun :: Empty -> Empty
+fun a = a
+
+myfun fun = Empty
+
+false :: A -> Empty
+
+undefined :: Empty -> A
+undefined = false

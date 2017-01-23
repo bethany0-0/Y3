@@ -2,7 +2,7 @@
 ./text.hs,15
 fact fact0,1
 
-./week1.hs,631
+./week1.hs,785
 data EmptyEmpty9,10
 data OR OR11,12
 data OR a b = L L11,12
@@ -26,3 +26,10 @@ law4Proof law4Proof55,56
 law4Proof law4Proof56,57
 law4function law4function58,59
 law4function law4function59,60
+undefined undefined99,100
+myfun myfun102,103
+myfun myfun103,104
+fun fun105,106
+fun fun106,107
+false false110,111
+undefined undefined112,113

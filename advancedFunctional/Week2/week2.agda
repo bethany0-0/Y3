@@ -108,8 +108,8 @@ classical-1 (inr x) f = falsity (f x)
 -- classical-2 : {A : Set} → A ∨ ¬ A
 -- classical-2 = DNE (λ z → z (inr (λ x → z (inl x))))
 
-classical-2 : { A : Set } → (¬ (¬ A) → A) → (A ∨ ¬ A)
-classical-2 f = {!!}
+classical-2 : { A : Set } → ({ A : Set } → (¬ (¬ A) → A)) → (A ∨ ¬ A)
+classical-2 dne = dne (λ ¬[a∨¬a] → ¬[a∨¬a] (inr (λ a → ¬[a∨¬a] (inl a))))
 
 
 -- inl {!falsity!}
@@ -164,27 +164,25 @@ law3 negOR = (λ x → negOR (inl x)) , (λ x → negOR (inr x))
 --                                 R b -> negB b
 
 law4 : {P Q : Set} → (¬ P ∧ ¬ Q) → (¬ (P ∨ Q))
-law4 and = {!(λ z →  !}
+law4 (negP , _) (inl p) = negP p
+law4 (_ , negQ) (inr q) = negQ q
 
 -- z = ¬ (P ∨ Q)
 
 -- ----Part 3 - prove 1 or 2
 
--- proof1-1 : {P Q : Set} → ((( P → Q) → P) → P) → (¬ (¬ A) → A)
-proof1-1 : {P Q : Set} → ((( P → Q) → P) → P) → ¬ (¬ P) → P
-proof1-1 peirce = λ x → {!!}
 
-proof1-2 : {P Q : Set} → (¬ (¬ P) → P) → (( P → Q) → P) → P
-proof1-2 DNE = λ x → {!!}
+-- proof : {P Q : Set} → ((( P → Q) → P) → P) → (P ∨ ¬ P)
+--classical-2 dne = dne (λ ¬[a∨¬a] → ¬[a∨¬a] (inr (λ a → ¬[a∨¬a] (inl a))))
 
+-- (p -> q) -> p = falisty (¬p -> p)
+               -- ¬(p∨¬p) -> (p∨¬p)
 
-
--- proof2-1 : {P Q : Set} → ((( P → Q) → P) → P) → (A ∨ ¬ A)
-proof2-1 : {P Q : Set} → ((( P → Q) → P) → P) → P ∨ ¬ P
-proof2-1 peirce = inl {!!}
+proof1 : {P : Set} → ({P Q : Set} → ((( P → Q) → P) → P)) → P ∨ ¬ P
+proof1 peirce = peirce (λ ¬[p∨¬p] → falsity ( ¬[p∨¬p] (inr (λ p → ¬[p∨¬p] (inl p))) ))
 
 
 
-proof2-2 : {P Q : Set} → (P ∨ ¬ P) → (( P → Q) → P) → P
-proof2-2 (inl x) = λ _ → x
-proof2-2 (inr x) = {!!}
+proof2 : {P Q : Set} → (P ∨ ¬ P) → (( P → Q) → P) → P
+proof2 (inl p) = λ _ → p
+proof2 (inr notP) = λ [P→Q]→P → [P→Q]→P (λ p → falsity (notP p))
