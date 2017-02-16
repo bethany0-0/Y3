@@ -1,6 +1,5 @@
 module Lab4 where
 
--- Week 2 Lecture 2
 
 -- Basic
 
